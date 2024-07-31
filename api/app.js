@@ -10,10 +10,7 @@ import messageRoute from "./routes/message.route.js";
 
 const app = express();
 
-app.use(cors({origin: "https://easycar-client.vercel.app",
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  Access-Control-Allow-Origin: "https://easycar-client.vercel.app",
-  Access-Control-Allow-Credentials: true}));
+app.use(cors({origin: "*"}));
 app.use(express.json());
 app.use(cookieParser());
 
