@@ -2,12 +2,6 @@
     "version": 2,
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ],
-    "rewrite": [
-        {
             "source": "/(.*)",
             "destination": "/"
         }
