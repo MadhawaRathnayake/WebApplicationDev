@@ -9,7 +9,7 @@ export const SocketContextProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    setSocket(io("https://easycar-socket.vercel.app:4000"));
+    setSocket(io("https://easycar-socket.vercel.app"));
   }, []);
 
   useEffect(() => {
