@@ -10,7 +10,7 @@ import messageRoute from "./routes/message.route.js";
 
 const app = express();
 
-app.use(cors({ origin: "*"}));
+app.use(cors({ origin: "https://easycar-frontend.onrender.com", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
