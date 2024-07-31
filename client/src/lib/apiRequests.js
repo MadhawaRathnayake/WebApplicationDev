@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-    baseURL:"https://easycar-backend.vercel.app/api",
+    baseURL:"https://webapplicationdev.onrender.com",
     withCredentials:true,
 })
 
